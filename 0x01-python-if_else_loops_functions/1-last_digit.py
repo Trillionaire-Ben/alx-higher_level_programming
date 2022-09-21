@@ -5,9 +5,10 @@ lastdig = int(repr(number)[-1])
 
 if(number < 0):
     lastdig = -lastdig
+print(f"Last digit of {number:d} is {lastdig:d} and is ", end="")
 if(lastdig > 5):
-    print("Last digit of {0} is {1} and is greater than 5".format(number, lastdig))
+    print("greater than 5")
 elif(lastdig == 0):
-    print("Last digit of {0} is {1} and is zero".format(number, lastdig))
+    print("0")
 elif(lastdig < 6 and not 0):
-    print("Last digit of {0} is {1} and is less than 6 and not 0".format(number, lastdig))
+     print("less than 6 and not 0")
