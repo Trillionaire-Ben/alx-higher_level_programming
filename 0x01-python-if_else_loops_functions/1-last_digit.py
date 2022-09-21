@@ -11,4 +11,4 @@ if(lastdig > 5):
 elif(lastdig == 0):
     print("0")
 elif(lastdig < 6 and not 0):
-     print("less than 6 and not 0")
+    print("less than 6 and not 0")
