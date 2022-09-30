@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 def number_keys(a_dictionary):
-    return (a_dictionary.keys())
+    x = a_dictionary.keys()
+    return (x)
