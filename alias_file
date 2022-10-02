@@ -1,0 +1,5 @@
+#!/bin/bash
+alias a="git add ."
+alias b="git commit -m"
+alias c="git push"
+alias p="pycodestyle --first"
