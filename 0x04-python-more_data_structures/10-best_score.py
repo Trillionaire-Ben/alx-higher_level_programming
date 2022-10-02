@@ -4,6 +4,8 @@ def best_score(a_dictionary):
     if type(a) is not dict or len(a) == 0:
         return (None)
     else:
-        dict_copy = a_dictionary.copy()
-        maxi = max(list(dict_copy.values()))
-        return (maxi)
+        maxi = max(list(a.values()))
+
+    for key in a_dictionary:
+        if a_dictionary[key] == maxi:
+            return (key)
