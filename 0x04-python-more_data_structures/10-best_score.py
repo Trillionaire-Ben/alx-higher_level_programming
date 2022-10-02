@@ -5,5 +5,5 @@ def best_score(a_dictionary):
         return (None)
     else:
         dict_copy = a_dictionary.copy()
-        maxi = max(list(dict_copy.value()))
+        maxi = max(list(dict_copy.values()))
         return (maxi)
