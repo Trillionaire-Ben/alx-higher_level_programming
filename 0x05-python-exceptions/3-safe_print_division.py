@@ -3,9 +3,9 @@ def safe_print_division(a, b):
     ''' fn to print the division of two
     integers'''
     try:
-        c = float(a / b)
-        return (c)
-    except (ValueError, ZeroDivisionError):
-        return ("None")
+        c = a / b
+    except (TypeError, ZeroDivisionError):
+        c = None
     finally:
         print("Inside result: {}".format(c))
+    return (c)
