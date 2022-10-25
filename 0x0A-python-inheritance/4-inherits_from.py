@@ -1,6 +1,7 @@
 #!/usr/bin/python3
+"""Defines a fn that checks if the object class
+inherited from specified class."""
 
-"""Defines a fn that checks if the object class inherited from specified class."""
 
 def inherits_from(obj, a_class):
     """Checks if an object is an inherited instance of a class.
