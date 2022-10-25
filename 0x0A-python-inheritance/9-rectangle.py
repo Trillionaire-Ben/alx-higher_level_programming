@@ -15,10 +15,10 @@ class Rectangle(BaseGeometry):
         Returns: nothing
         """
 
-        self.integer_validator("width", width)
+        super().integer_validator("width", width)
         self.__width = width
         self.integer_validator("height", height)
-        self.__height = height
+        super().__height = height
 
     def area(self):
         """implementing area meyhod"""
